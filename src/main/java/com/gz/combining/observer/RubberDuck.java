@@ -4,6 +4,7 @@ package com.gz.combining.observer;
  * @author xiaozefeng
  */
 public class RubberDuck implements Quackable {
+
     Observable observable;
 
     @Override
