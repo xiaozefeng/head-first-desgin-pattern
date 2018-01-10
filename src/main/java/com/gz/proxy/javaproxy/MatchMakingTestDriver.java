@@ -33,6 +33,8 @@ public class MatchMakingTestDriver {
         }
         System.out.println("Rating is " + ownerProxy.getHotOrNotRating());
 
+        System.out.println();
+
         PersonBean nonOwnerProxy = getNonOwnerProxy(joe);
         System.out.println("Name is " + nonOwnerProxy.getName());
         try {
